@@ -35,6 +35,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.daimajia.easing:library:2.4@aar'
-    implementation 'androidx.core:core:1.15.0'
+    implementation 'com.github.mensarb:AnimationEasingFunctions:1.0'
+    implementation 'androidx.core:core-ktx:1.15.0'
 }
